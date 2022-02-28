@@ -19,6 +19,7 @@ class CreateVehiculoTable extends Migration
             $table->string('id_marca');
             $table->string('tipo_v');
             $table->string('propetario');
+            $table->string('id_propetario');
             $table->timestamps();
         });
     }

@@ -43,6 +43,7 @@ class VehiculoController extends Controller
         $vehiculo->id_marca = $request->id_marca;
         $vehiculo->tipo_v = $request->tipo_v;
         $vehiculo->propetario = $request->propetario;
+        $vehiculo->id_propetario = $request->id_propetario;
         $vehiculo->save();
         return $vehiculo;
     }
